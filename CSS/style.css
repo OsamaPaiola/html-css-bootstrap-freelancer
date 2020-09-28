@@ -1,0 +1,41 @@
+.box-nav{
+  background-color: red;
+  border: 1px solid black;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.box-jumbo{
+  background-color: yellow;
+  border: 1px solid black;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.box-portf{
+  background-color: green;
+  border: 1px solid black;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.box-about{
+  background-color: pink;
+  border: 1px solid black;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.box-contact{
+  background-color: blue;
+  border: 1px solid black;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.box-foot{
+  background-color: grey;
+  border: 1px solid black;
+  height: 50px;
+  margin-bottom: 10px;
+}
