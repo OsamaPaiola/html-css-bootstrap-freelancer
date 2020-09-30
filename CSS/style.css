@@ -1,10 +1,15 @@
 body{
   font-family: 'Lato', sans-serif;
+  padding: 80px 0;
+  padding-bottom: 0
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -16,6 +21,7 @@ h3 {
   border-radius: 0;
   margin-bottom: 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .main-header .navbar-brand {
@@ -30,11 +36,11 @@ h3 {
   color: white;
   padding: 0 15px;
   line-height: 80px;
-  transition: background 0.8s
+  transition: color 0.3s
 }
 
 .main-header .navbar-nav>li>a:hover {
-  background: rgba(0, 0, 0, 0.5);
+  color: #1abc9c;
 }
 
 .main-header .navbar-header .navbar-toggle{
@@ -83,12 +89,11 @@ h3 {
   margin: 20px 0;
 }
 
-.portfolio .row {
-  margin-bottom: 20px;
-}
 
 .portfolio .row .box-img-portf {
   position: relative;
+  cursor: pointer;
+  margin-bottom: 30px
 }
 
 .portfolio .row .box-img-portf .overlay {
@@ -109,8 +114,8 @@ h3 {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -122,32 +127,98 @@ h3 {
 /* ABOUT */
 .about{
   background-color: #1abc9c;
-  height: 500px;
+  color: white;
+}
+
+.about .box-tx-sx{
+  margin-right: 20px;
+}
+
+.about .box-tx-dx{
+  margin-left: 20px;
+}
+
+.about h2 {
+  font-size: 40px;
+}
+
+.about i {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.about p {
+  font-size: 20px;
+}
+
+.about .box-dwload {
+  margin-bottom: 50px;
+}
+
+.about .box-dwload .btn {
+  font-size: 20px;
+}
+
+.about .box-dwload .btn i {
+  font-size: 20px;
+  margin-right:10px;
+}
+
+/* CONTACT */
+.contact i {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.contact .form-group {
+  margin-bottom: 0;
+}
+
+.contact input,
+.contact textarea{
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  font-size: 24px;
+  color: #2c3e50;
+  box-shadow: none;
+}
+
+.contact input {
+  padding: 0;
+  height: 100px;
+  line-height: 100px;
+}
+
+.contact textarea {
+  margin-bottom: 30px;
+  padding: 30px 0;
 }
 
 
-
-
-
-
-/*
-.box-about{
-  background-color: pink;
-  border: 1px solid black;
-  height: 50px;
-  margin-bottom: 10px;
-} */
-
-.box-contact{
-  background-color: blue;
-  border: 1px solid black;
-  height: 50px;
-  margin-bottom: 10px;
+/* FOOTER */
+.main-footer {
+  color: white;
+  margin-top: 50px
 }
 
-.box-foot{
-  background-color: grey;
-  border: 1px solid black;
-  height: 50px;
-  margin-bottom: 10px;
+.footer-pre {
+  padding: 60px 0;
+  background: #2c3e50;
+}
+
+.box-foot .social a {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  line-height: 50px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.foot-end {
+  background-color: #1a252f;
+  line-height: 50px;
 }

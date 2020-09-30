@@ -13,7 +13,7 @@
     <!-- HEADER -->
     <header class="main-header">
       <!-- NAV HEADER -->
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -133,75 +133,76 @@
           </div>
         </div>
       </section>
+
       <!-- ABOUT -->
       <section class="about">
         <div class="container">
           <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-              <div class="box-about">
-                About
+            <div class="col-xs-12">
+              <div class="box-about text-center">
+                <h2>About</h2>
+                <i class="fas fa-star"></i>
               </div>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <div class="box-about">
-                text sx
+            <div class="col-xs-12 col-md-4 col-md-offset-2">
+              <div class="box-tx-sx">
+                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="box-about">
-                text dx
+            <div class="col-xs-12 col-md-4">
+              <div class="box-tx-dx">
+                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
               </div>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-              <div class="box-about">
-                Free Download
+            <div class="col-xs-12">
+              <div class="box-dwload text-center">
+                <button type="button" class="btn btn-default">
+                  <i class="fas fa-download"></i>
+                  Free Download
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+
       <!-- CONTACT ME -->
-      <section>
+      <section class="contact">
         <div class="container">
           <div class="row">
-            <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-              <div class="box-contact">
-                contact me
+            <div class="col-xs-12">
+              <div class="box-contact text-center">
+                <h2>contact me</h2>
+                <i class="fas fa-star"></i>
               </div>
             </div>
           </div>
 
           <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-              <div class="box-contact">
-                name
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-              <div class="box-contact">
-                email
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-              <div class="box-contact">
-                phone
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-              <div class="box-contact">
-                message
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-              <div class="box-contact">
-                send
-              </div>
+              <form>
+                <div class="form-group">
+                  <input type="name" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email adress" class="form-control" id="email adress" placeholder="Email Adress">
+                </div>
+                <div class="form-group">
+                  <input type="Phone Number" class="form-control" id="Phone Number" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Message" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
             </div>
           </div>
         </div>
@@ -209,26 +210,61 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 ">
-            <div class="box-foot">
-              contact me
+    <footer class="main-footer text-center">
+      <div class="footer-pre">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 ">
+              <div class="box-foot">
+                <h3>location</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 ">
-            <div class="box-foot">
-              contact me
+            <div class="col-xs-12 col-sm-4 ">
+              <div class="box-foot">
+                <h3>around the web</h3>
+                <ul class="social list-inline">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-4 ">
-            <div class="box-foot">
-              contact me
+            <div class="col-xs-12 col-sm-4 ">
+              <div class="box-foot">
+                <h3>about freelancer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="foot-end">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="box-foot-end">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
